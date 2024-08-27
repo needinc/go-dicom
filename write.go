@@ -457,7 +457,7 @@ func writeVRVL(w *dicomio.Writer, t tag.Tag, vr string, vl uint32) error {
 }
 
 func writeRawItem(w *dicomio.Writer, data []byte) error {
-	length := uint32(len(data))
+	length := tag.VLUndefinedLength//length := uint32(len(data))
 	if err := writeTag(w, tag.Item, length); err != nil {
 		return err
 	}
