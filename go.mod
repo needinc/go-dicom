@@ -1,4 +1,4 @@
-module go-dicom
+module github.com/needinc/go-dicom
 
 go 1.21.3
 
