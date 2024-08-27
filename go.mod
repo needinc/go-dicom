@@ -1,9 +1,10 @@
-module github.com/suyashkumar/dicom
+module go-dicom
 
-go 1.22
+go 1.21.3
 
 require (
 	github.com/google/go-cmp v0.6.0
-	golang.org/x/exp v0.0.0-20240525044651-4c93da0ed11d
-	golang.org/x/text v0.3.8
+	github.com/suyashkumar/dicom v1.0.7
+	golang.org/x/exp v0.0.0-20240823005443-9b4947da3948
+	golang.org/x/text v0.17.0
 )
