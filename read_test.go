@@ -12,14 +12,14 @@ import (
 
 	"github.com/google/go-cmp/cmp/cmpopts"
 
-	"github.com/suyashkumar/dicom/pkg/vrraw"
+	"github.com/needinc/go-dicom/pkg/vrraw"
 
-	"github.com/suyashkumar/dicom/pkg/dicomio"
-	"github.com/suyashkumar/dicom/pkg/frame"
+	"github.com/needinc/go-dicom/pkg/dicomio"
+	"github.com/needinc/go-dicom/pkg/frame"
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/suyashkumar/dicom/pkg/tag"
+	"github.com/needinc/go-dicom/pkg/tag"
 )
 
 func TestReadTag(t *testing.T) {
