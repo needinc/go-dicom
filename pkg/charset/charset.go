@@ -63,6 +63,7 @@ var htmlEncodingNames = map[string]string{
 	"ISO 2022 IR 144": "iso-ir-144",
 	"ISO_IR 148":      "iso-ir-148",
 	"ISO 2022 IR 148": "iso-ir-148",
+	"ISO_IR 149":      "euc-kr",
 	"ISO 2022 IR 149": "euc-kr",
 	"ISO 2022 IR 159": "iso-2022-jp",
 	"ISO_IR 166":      "iso-ir-166",
